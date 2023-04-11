@@ -1,0 +1,20 @@
+:root {
+    --green-light: #61A568;
+    --green-dark: #425844;
+    --blue-dark: #101D2C;
+    --white: #F5F5F5;
+    --grey: #AAAAAA;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--green-dark);
+}
+
+
+
+@import 'base/*.scss';
+@import 'blocks/*.scss';
