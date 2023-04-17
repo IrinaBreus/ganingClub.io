@@ -1,0 +1,21 @@
+.sidebar {
+    height: 100%;
+    width: 100%;
+    background-color: var(--green-dark);
+    padding: 26px 0 0 20px;
+}
+
+.hamburger {
+    position: fixed;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    span {
+        display: block;
+        width: 40px;
+        height: 1px;
+        background-color: var(--white);
+    }
+}
