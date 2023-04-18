@@ -1,0 +1,23 @@
+.btn {
+    padding: 15px 30px;
+    background: var(--green-light);
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--white);
+}
+
+@media (max-width: 576px) {
+    .btn {
+        padding: 15px 10px;
+        background: var(--green-light);
+        border: none;
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 20px;
+        color: var(--white);
+    }
+}

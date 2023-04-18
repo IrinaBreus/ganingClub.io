@@ -10,7 +10,7 @@
     }
     &__block {
         display: grid;
-        grid-template-columns: auto minmax(100px, 352px);
+        grid-template-columns: max-content minmax(100px, 352px);
         column-gap: 25px;
     }
     &__text {
