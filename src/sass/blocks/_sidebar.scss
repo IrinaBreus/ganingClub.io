@@ -2,20 +2,29 @@
     height: 100%;
     width: 100%;
     background-color: var(--green-dark);
-    padding: 26px 0 0 20px;
+    padding-top: 26px;
+    display: flex;
+    justify-content: center;
 }
 
 .hamburger {
     position: fixed;
-    height: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    width: 50px;
+    height: 1px;
+    background-color: var(--white);
     cursor: pointer;
-    span {
-        display: block;
-        width: 40px;
+    &::before, &::after {
+        content: '';
+        width: 50px;
         height: 1px;
         background-color: var(--white);
+        display: block;
+        cursor: pointer;
+    }
+    &::before {
+        transform: translateY(-10px);
+    }
+    &::after {
+        transform: translateY(10px);
     }
 }

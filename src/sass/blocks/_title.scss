@@ -1,8 +1,12 @@
 .title {
     color: var(--white);
     margin-bottom: 30px;
+    font-weight: 700;
+    &_first {
+        font-size: 45px;
+        line-height: 55px;
+    }
     &_second {
-        font-weight: 700;
         font-size: 40px;
         line-height: 100%;
     }
@@ -14,9 +18,18 @@
     line-height: 23px;
     letter-spacing: 0.13em;
     color: var(--green-light);
+    &_first {
+        font-weight: 700;
+        letter-spacing: 0;
+    }
     &_second {
         font-size: 17px;
         line-height: 21px;
+    }
+    &_white {
+        font-weight: 700;
+        color: var(--white);
+        letter-spacing: 0;
     }
 }
 

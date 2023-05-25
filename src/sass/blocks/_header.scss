@@ -1,0 +1,64 @@
+.header{
+    background-color: var(--blue-dark);
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    &__main {
+        padding: 50px 40px 50px 63px;
+        background: url('../img/firstBG.jpg') center center / cover no-repeat;
+    }
+    &__logo {
+        text-align: center;
+        margin-bottom: 180px;
+    }
+    &__btn {
+        margin-bottom: 158px;
+    }
+    &__descr {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: var(--grey);
+        display: grid;
+        grid-template-columns: 1fr max-content 1fr;
+        gap: 20px;
+        align-items: center;
+        margin-bottom: 12px;
+        &::before, &::after {
+            content: "";
+            display: block;
+            height: 1px;
+            background-color: var(--grey);
+        }
+    }
+    &__game {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    &__players {
+        display: grid;
+        grid-template-columns: min-content max-content;
+        gap: 40px 20px;
+        justify-content: center;
+        align-content: center;
+    }
+    &__subtitle {
+        grid-column: 1 / -1;
+        text-align: center;
+    }
+    &__player {
+        width: 70px;
+        height: 70px;
+    }
+    &__text {
+        align-self: center;
+    }
+    &__score {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 20px;
+        color: var(--grey);
+    }
+}
