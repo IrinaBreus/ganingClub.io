@@ -13,7 +13,6 @@
 
 .card {
     background-color: var(--blue-dark);
-    // width: 100%;
     width: 330px;
     text-align: center;
     margin: 0 30px 40px 30px;
@@ -86,9 +85,8 @@
         margin: 0 10px 40px 10px;
         &__descr {
             padding: 7px 10px 32px 10px;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(124px, 1fr));
-            row-gap: 18px;
+            grid-template-columns: repeat(auto-fill, minmax(124px, max-content));
+            row-gap: 25px;
         }
     }
 }

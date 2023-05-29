@@ -28,3 +28,14 @@
         transform: translateY(10px);
     }
 }
+
+@media (max-width: 1140px) {
+    .sidebar {
+        z-index: 10;
+        position: fixed;
+        height: 60px;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 24px;
+    }
+}

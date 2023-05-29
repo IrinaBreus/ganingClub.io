@@ -2,6 +2,13 @@
     display: grid;
     grid-template-columns: 80px 1fr;
 }
+
+@media (max-width: 1140px) {
+    .wrapper {
+        top: 50px;
+        grid-template-columns: 1fr;
+    }
+}
 .container {
     max-width: 1140px;
     margin: 0 auto;
